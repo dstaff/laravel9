@@ -31,3 +31,19 @@ $factory->define(App\Models\Post::class, static function (Faker\Generator $faker
         
     ];
 });
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(App\Models\Question::class, static function (Faker\Generator $faker) {
+    return [
+        'difficulty' => $faker->sentence,
+        'question' => $faker->sentence,
+        'answer_a' => $faker->sentence,
+        'answer_b' => $faker->sentence,
+        'answer_c' => $faker->sentence,
+        'answer_d' => $faker->sentence,
+        'correct_answer' => $faker->sentence,
+        'created_at' => $faker->dateTime,
+        'updated_at' => $faker->dateTime,
+        
+        
+    ];
+});

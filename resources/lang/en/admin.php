@@ -51,5 +51,27 @@ return [
         ],
     ],
 
+    'question' => [
+        'title' => 'Questions',
+
+        'actions' => [
+            'index' => 'Questions',
+            'create' => 'New Question',
+            'edit' => 'Edit :name',
+        ],
+
+        'columns' => [
+            'id' => 'ID',
+            'difficulty' => 'Difficulty',
+            'question' => 'Question',
+            'answer_a' => 'Answer a',
+            'answer_b' => 'Answer b',
+            'answer_c' => 'Answer c',
+            'answer_d' => 'Answer d',
+            'correct_answer' => 'Correct answer',
+            
+        ],
+    ],
+
     // Do not delete me :) I'm used for auto-generation
 ];
